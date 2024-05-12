@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   body{
+      background-color:  hsl(0, 0%, 8%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 100px; 
+    }
+    *{
+      padding: 0;
+      margin: 0;
+    }
+
+    section{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 450px;
+    width: 240px;
+    }
+
+   .one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+   }
+   .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+   }
+
+   h3{
+    color: whitesmoke;
+    margin-top: 40px;
+   }
+
+   p{
+    margin-top: 12px;
+    font-size: small;
+   }
+
+   #para{
+    color: whitesmoke;
+   }
+
+   #para2{
+    color:hsl(75, 94%, 57%);
+   }
+
+   button{
+    color: white;
+    margin: 7px;
+    min-width: 200px;
+    min-height: 30px;
+    background-color: grey;
+    border: 0;
+    border-radius: 6px;
+   }
+   button:hover{
+    background-color:  hsl(75, 94%, 57%);
+
+   }
+
+    img{
+    border-radius: 50%;
+    height: 100px;
+    }
+
+
+
+
+  </style>
+
+</head>
+<body>
+  <section>
+    <div class="one">
+     <img src="assets/images/avatar-jessica.jpeg" alt="">
+     <h3>Jessica Randall</h3>
+     <p id="para2">Londo ,United Kingdom</p>
+     <p id="para">"Front-end developer and avid reader."</p>
+    </div>
+
+    <div class="two">
+     <button>GitHub</button>
+     <button>Fronted Mentor</button>
+     <button>Linkedin</button>
+     <button>Twitter</button>
+     <button>Instagram</button>
+      </div>
+  </section>
+</body>
+</html>
