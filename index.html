@@ -15,21 +15,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 100px; 
     }
-    *{
-      padding: 0;
-      margin: 0;
-    }
-
+    
     section{
     background-color: hsl(0, 0%, 12%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    height: 450px;
     width: 240px;
+    border-radius: 10px;
     }
 
    .one{
@@ -39,10 +34,9 @@
     flex-flow: column;
    }
    .two{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 20px;
    }
 
    h3{
@@ -74,36 +68,34 @@
    }
    button:hover{
     background-color:  hsl(75, 94%, 57%);
-
+    color: black;
+    cursor: pointer;
    }
-
     img{
     border-radius: 50%;
     height: 100px;
+    margin-top: 20px;
     }
-
-
-
 
   </style>
 
 </head>
 <body>
-  <section>
-    <div class="one">
+ <section>
+   <div class="one">
      <img src="assets/images/avatar-jessica.jpeg" alt="">
      <h3>Jessica Randall</h3>
      <p id="para2">Londo ,United Kingdom</p>
      <p id="para">"Front-end developer and avid reader."</p>
-    </div>
+   </div>
 
-    <div class="two">
+   <div class="two">
      <button>GitHub</button>
      <button>Fronted Mentor</button>
      <button>Linkedin</button>
      <button>Twitter</button>
      <button>Instagram</button>
-      </div>
-  </section>
+   </div>
+ </section>
 </body>
 </html>
